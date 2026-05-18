@@ -1,0 +1,2 @@
+//Personalizados as imagens do projeto
+Usar gimp para imagens
