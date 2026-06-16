@@ -1,0 +1,3 @@
+//Aula: Mobile First
+Banco de imagens: Pexels
+Otimização: gimp ou gemini
