@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.container {
+            background-color: lightsalmon;
+            display: flex;
+            flex-direction: row;
+            /*
+            Flex-direction: row
+            wrap: bloco G vai para baixo
+            wrap-reverse: bloco G vai para cima
+
+            Como simplificar flex-direction e flex-wrap = flex-flow(no-wrap, wrap, wrap-reverse): row nowrap
+            no-wrap: nao quebra
+            wrap: quebra ate limite do conteudo
+            */
+            flex-wrap: wrap-reverse;
+        }
+
+        div.item {
+            background-color: lightskyblue;
+            border: 1px solid black;
+            text-align: center;
+            /*
+            Funciona no elemento pai
+            Elimina espaços brancos
+            */
+            flex: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item">Exemplo de bloco A</div>
+        <div class="item">Exemplo de bloco B</div>
+        <div class="item">Exemplo de bloco C</div>
+        <div class="item">Exemplo de bloco D</div>
+        <div class="item">Exemplo de bloco E</div>
+        <div class="item">Exemplo de bloco F</div>
+        <div class="item">Exemplo de bloco G</div>
+    </div>
+</body>
+</html>
